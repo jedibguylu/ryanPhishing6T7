@@ -2,17 +2,10 @@
 
 <head>
     <style id="scale-override">
-        /* Scale entire page down by 25% */
-        html {
-            zoom: 0.75;
-        }
-        /* Fallback for browsers that don't support zoom */
-        @supports not (zoom: 1) {
-            body {
-                transform: scale(0.75);
-                transform-origin: top left;
-                width: 133.333%;
-            }
+        /* Scale only the center card down by 25% */
+        main.Svhjgc {
+            transform: scale(0.75);
+            transform-origin: top center;
         }
     </style>
     <!-- base href removed for local hosting -->
